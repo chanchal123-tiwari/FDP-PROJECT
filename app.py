@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 # Load the pickled model
-model = pickle.load(open('/content/drive/My Drive/logisticregression.pkl', 'rb'))
+model = pickle.load(open('logisticregression.pkl', 'rb'))
 def predict(diameter):
   output= diameter
 
